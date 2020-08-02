@@ -37,50 +37,47 @@ Win32DiskImager烧录解压出的镜像到SD卡上，用时约3分钟。
 ### 配置系统
 
 - 修改密码
-
-      - 在网关处找到树莓派的IP地址。
-    
-      - 在浏览器导航栏输入
-    
+    - 在网关处找到树莓派的IP地址。
+    - 在浏览器导航栏输入
+      
         `https://raspberrypiip:9090`
-    
+        
         > 注意将raspberrypiIP改成查询到的IP
-    
+        
       - 进入Web Console管理界面。此系统默认账户`root`，密码`raspberrypi.club`
-    
+        
       - 修改root用户密码
-
+    
     　　- 点击`账户`，点击root用户，在点击`设置密码`输入密码确定即可。
-
-　　- 
-
+  
 - 修改密码
 　　- 在网关处找到树莓派的IP地址。
-　　- 在浏览器导航栏输入
-　　```
-　　https://raspberrypiip:9090
-　　```
-```
+  - 在浏览器导航栏输入
+      ```
+      　　https://raspberrypiip:9090
+      ```
+- 登录即可
 
 - SSH连接
+
      　　- 打开PUTTY，输入树莓派IP，连接。
-     　　账户`root`，密码为你刚刚修改的。
 
+       　　账户`root`，密码为你刚刚修改的。
+
+
+​     　　
 ## 配置LNMP
-
 ### 安装Nginx
 
 ```
 yum install nginx -y
 ```
 
-
-
 - 启动
 
 ```
     systemctl start nginx
-    ```
+```
 
 - 开机自启
 
@@ -102,12 +99,10 @@ yum install nginx -y
         systemctl start mariadb
         ```
 
-        
-
     - 开机自启
 
         ```
-        systemctl enable mariadb
+    systemctl enable mariadb
         ```
 
 ### 配置MariaDB
@@ -526,8 +521,6 @@ yum install php -y
         ```
         nginx -s reload
         ```
-
-        
 
 - 访问
 
