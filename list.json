@@ -5,13 +5,28 @@
     "file":"posts/about.md"
   },
   {
+    "title":"最初的梦想",
+    "time":"2020-06-29",
+    "file":"posts/zcdmx.md"
+  }, 
+  {
     "title":"友人帐",
     "time":"2020-08-02",
     "file":"posts/links.md"
   },
   {
-    "title":"最初的梦想",
-    "time":"2020-06-29",
-    "file":"posts/zcdmx.md"
+    "title":"Markdown基础语法",
+    "time":"2020-06-30",
+    "file":"posts/mdgra.md"
+  },
+  {
+    "title":"折腾树莓派",
+    "time":"2020-06-16",
+    "file":"posts/rasp.md"
+  },
+  {
+    "title":"树莓派布置blog",
+    "time":"2020-06-20",
+    "file":"posts/raspblog.md"
   }
 ]
