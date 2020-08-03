@@ -146,7 +146,6 @@
 
 至此初步配置完成。
 
-版权声明：本文为 [Shiro Akatsuki](http://akashi.top/)撰写，本作平采用[CC 4.0 BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)许可证进行许可。
 
 参考资料：
 
